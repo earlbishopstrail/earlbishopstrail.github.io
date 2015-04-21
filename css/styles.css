@@ -1,0 +1,1337 @@
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+
+h3, h4, h5, h6 {
+	
+	font-size:24px;
+	
+}
+
+
+/* ------------------------------------------
+  HOME CONTENT STYLES
+--------------------------------------------- */
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  background: #f2f2f2;
+  font: normal 100%/1.4 sans-serif;
+}
+
+#things, #contact {
+	float:left;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:960px;
+  width: 100%;
+}
+
+
+
+#about {
+	float:left;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  min-height:960px;
+  width: 100%;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+#home {
+		float:left;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:980px;
+  width: 100%;
+ background: url(../img/white-rocks.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ 
+}
+
+#home img: {
+	width:100%;
+	height:auto;	
+}
+
+.home-container{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	
+}
+
+.home-catch{
+	float:left;
+	margin-top:100px;
+	width:1170px;
+	
+}
+
+.home-catch h2{
+	margin:auto;
+	font-family: 'Dancing Script', cursive;	
+	font-size:120px;
+	color:white;
+	
+}
+
+.home-title{
+	float:left;
+	margin-top:80px;
+	width:1170px;
+	
+}
+
+.home-title h1{
+	margin:auto;
+	font-family: 'Oswald', sans-serif;
+	font-size:100px;
+	color:white;
+}
+
+.home-info{
+	float:left;
+	margin-top:30px;
+	width:1170px;
+}
+
+.home-content{
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+		
+}
+
+.home-content h2{
+	font-family: 'Dancing Script', cursive;	
+	font-size:75px;
+	color:white;
+	line-height:normal;
+	
+}
+
+/*--Home Locations Button--*/
+.home-button-container{
+	float:left;
+	margin-top:50px;
+	width:1170px;
+}
+.home-button{
+	margin:auto;
+	width:385px;
+		
+}
+
+a.btn, a.btn:link, a.btn:visited, a.showbtn, a.showbtn:link, a.showbtn:visited {
+	font-family: 'Sofia', cursive;	
+    display:inline-block;
+    color:#000;
+    background-color:#f2f2f2;
+    font-weight:bold;
+    font-size:40px;
+    text-align:center;
+    padding:0.7% 2.0%;
+    text-decoration:none;
+    margin-left:0;
+    margin-top:15px;
+    margin-bottom:5px;
+    border:1px solid #f2f2f2;
+    border-radius:15px;
+    white-space:nowrap;
+	opacity:0.7;
+}
+
+a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
+    background-color:#f2f2f2;
+    color:#8AC007;
+	opacity:1;
+}
+/*--Home Locations Button--*/
+
+/* ------------------------------------------
+  HOME CONTENT STYLES END
+--------------------------------------------- */
+
+
+/* ------------------------------------------
+  ABOUT CONTENT STYLES
+--------------------------------------------- */
+
+#about{
+	background-color:#f2f2f2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#about img: {
+	width:100%;
+	height:auto;	
+}
+
+.about-container{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+}
+
+.about-title{
+	float:left;
+	margin-top:50px;
+	width:1170px;
+	
+}
+
+.about-title h3{
+	margin:auto;
+	font-family: 'Dancing Script', cursive;	
+	font-size:90px;
+	color:black;
+	
+}
+
+.about-img{
+	float:left;
+	width:1170px;
+	margin-top:33px;
+}
+
+.about-info{
+	float:left;
+	margin-top:33px;
+	width:1170px;
+}
+
+.about-info p{
+	text-align:center;
+	color:black;
+	font-family: 'Vollkorn', serif;
+	 
+		
+}
+
+/* ------------------------------------------
+  ABOUT CONTENT STYLES END
+--------------------------------------------- */
+
+
+/* ------------------------------------------
+  THINGS CONTENT STYLES
+--------------------------------------------- */
+
+#things{
+	background: url(../img/carrick-a-rede.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:940px;
+}
+
+#about section {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:900px;
+  width: 100%;
+}
+
+
+#things img: {
+	width:100%;
+	height:auto;	
+}
+
+.things-container{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	height:960px;
+}
+
+.things-title{
+	float:left;
+	margin-top:50px;
+	width:1170px;
+	height:100px;
+	
+}
+
+.things-title h4{
+	margin:auto;
+	font-family: 'Dancing Script', cursive;	
+	font-size:115px;
+	color:white;
+	line-height:1;
+	
+}
+
+.things-hex {
+	margin-top:100px;
+	width:1170px;
+	float:left;	
+}
+
+/* HEX CONTENT */
+
+#hex-container{
+	margin-left:auto;
+	margin-right:auto;
+	width:1080px;
+	
+}
+
+#hex1 {
+	float:left;
+	padding-right:20px;
+}
+
+#hex2 {
+	padding-right:20px;
+	float:left;
+	
+}
+
+.flip-line{
+	padding-left:135px;	
+	
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 250px;
+	height: 250px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+
+/* ------------------------------------------
+  THINGS CONTENT STYLES END
+--------------------------------------------- */
+
+
+/* ------------------------------------------
+  MAP CONTENT STYLES
+--------------------------------------------- */
+
+#map{
+		float:left;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:925px;
+  width: 100%;
+	background-color:#f2f2f2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.map-container{
+	margin:auto;
+	padding:auto;
+	width:100%;
+	height:925px;
+	position:relative;
+	z-index:10;
+}
+
+.map-content{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	position:absolute;
+	top:0;
+    left:10%;
+}
+
+.map-title{
+	float:left;
+	margin-top:20px;
+	width:1170px;
+	height:150px;
+}
+
+.map-title h4{
+	margin:auto;
+	margin-top:-20px;
+	font-family: 'Dancing Script', cursive;	
+	font-size:115px;
+	color:white;
+	line-height:normal;
+
+	
+}
+
+.map-canvas{
+	margin:auto;
+	padding:auto;
+	width:100%;
+	height:925px;
+	position:relative;
+	z-index:-1;
+}
+
+/* ------------------------------------------
+  MAP CONTENT STYLES END
+--------------------------------------------- */
+
+
+/* ------------------------------------------
+  CONTACT CONTENT STYLES
+--------------------------------------------- */
+
+#contact {
+	width:100%; 
+	height:100%; 
+	margin 0 auto; 
+	background: #f2f2f2; 
+}
+
+.contact-container {
+	width:1170px; 
+	height:auto; 
+	margin:auto; 
+	padding: 50px 0;
+	margin-bottom:45px;
+}
+
+.contact-title {
+	float:left;
+	width:1170px; 
+	height:auto; 
+	margin:auto; 
+	padding: 20px 0;
+}
+
+.contact-title h5{
+	font-family: 'Oswald', sans-serif;	
+	font-size:75px;
+	color:black;
+	line-height:normal;
+}
+
+.contact-info {
+	float:left;
+	width:1170px; 
+	height:auto; 
+	margin:auto; 
+	padding-top: 10px;
+	padding-bottom:20px;
+}
+
+.contact-info h6{
+	font-family: 'Oswald', sans-serif;	
+	font-size:18px;
+	color:black;
+	line-height:normal;
+}
+
+#contact .contact-container form input,
+#contact .contact-container form textarea {
+	width:97.4%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color:#999;
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid #FFF;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .contact-container form input:focus,
+#contact .contact-container form textarea:focus {
+	border:2px solid #dd4545;
+	color:#999;}
+
+#contact .contact-container form textarea {
+	height:150px;}
+
+#contact .contact-container form .submit {
+	width:100%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#dd4545;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #b43838;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .contact-container form .submit:hover {
+	color:#FFF;
+	border:2px solid #dd4545;
+	background: #b43838;
+	cursor:pointer;}
+
+#contact .contact-container form .required {
+	color:#b43838;}
+
+
+/* ------------------------------------------
+  CONTACT CONTENT STYLES END
+--------------------------------------------- */
+
+/* ------------------------------------------
+  LOCAL PAGE
+--------------------------------------------- */
+
+#local {
+ background: url(../img/local-bg.jpg) no-repeat center center;	
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+
+#local img {
+	width:100%;
+	height:auto;	
+}
+
+.local-container{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	height:592px;
+}
+
+.local-catch{
+	float:left;
+	margin-top:105px;
+	width:1170px;
+	height:95px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.local-title{
+	float:left;
+	margin-top:15px;
+	width:1170px;
+	height:85px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.local-name{
+	float:left;
+	margin-top:20px;
+	width:1170px;
+	height:170px;
+	
+}
+
+#businesses {
+	background-color:#f2f2f2;
+	   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#businesses img {
+	height:auto;	
+}
+
+.businesses-container{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	height:1640px;
+}
+
+.businesses-nav{
+	float:left;
+	margin-top:10px;
+	width:1170px;
+	height:80px;
+	
+}
+
+.businesses-content{
+	float:left;
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	height:370px;
+	
+}
+
+
+.businesses-img{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+	height: 285px;
+    width: 567px; 
+}
+
+.businesses-info{
+    float: right;
+    margin-top: 40px;
+    margin-right: 30px;
+    height: 285px;
+    width: 490px;
+    
+}
+
+
+.footer-container{
+	margin:auto;
+	padding:auto;
+	width:1170px;
+	height:50px;
+	opacity:0.5;
+	
+}
+
+#local h1 {
+ 	margin-bottom: .5em;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 65px;
+  	line-height:none;
+	color:#FFF;
+
+}
+
+#local h2 {
+   	margin-top:-20px;
+ 	font-family: 'Dancing Script', cursive;
+  	font-size: 85px;
+  	line-height:none;
+	color:#FFF;
+}
+
+#local h3 {
+	margin-top:-40px;
+ 	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+  	line-height:none;
+	color:#FFF;
+}
+
+#local h4 {
+ 	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+  	line-height:none;
+	color:#333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+
+#local p {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	font-family: 'Vollkorn', serif;
+}
+
+.businesses-info p {
+    margin: 0 auto;
+ 	font-family: 'Vollkorn', serif;
+	color:#000;
+	text-align:justify
+
+}
+
+#businesses h1 {
+ 	margin-bottom: .5em;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 65px;
+  	line-height:none;
+	color:#FFF;
+
+}
+
+#businesses h2 {
+   	margin-top:-20px;
+ 	font-family: 'Dancing Script', cursive;
+  	font-size: 85px;
+  	line-height:none;
+	color:#FFF;
+}
+
+#businesses h3 {
+	margin-top:-40px;
+ 	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+  	line-height:none;
+	color:#FFF;
+}
+
+#businesses h4 {
+ 	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+  	line-height:none;
+	color:#333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+}
+
+#businesses p {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	font-family: 'Vollkorn', serif;
+}
+
+
+/* ------------------------------------------
+  LOCAL PAGE END
+--------------------------------------------- */
+
+/* ------------------------------------------
+  LOCATION CONTENT STYLEs
+--------------------------------------------- */
+
+/*--Causeway Heading--*/
+#causeway-home {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:980px;
+  width: 100%;
+ background: url(../img/causeway/causeway-columns.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ 
+}
+
+#causeway img: {
+	width:100%;
+	height:auto;	
+}
+/*--Mussenden Heading--*/
+
+#mussenden-home {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:980px;
+  width: 100%;
+ background: url(../img/mussenden/mussenden-temple.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ 
+}
+
+#mussenden img: {
+	width:100%;
+	height:auto;	
+}
+
+/*--Derry Heading--*/
+#derry-home {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:980px;
+  width: 100%;
+ background: url(../img/derry/bishops-gate.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ 
+}
+
+#derry img: {
+	width:100%;
+	height:auto;	
+}
+
+/*--Derry Heading--*/
+#port-home {
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:980px;
+  width: 100%;
+ background: url(../img/portrush/720p-sand.gif) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ 
+}
+
+#port img: {
+	width:100%;
+	height:auto;	
+}
+
+#port-home .home-title {
+	
+	color:#000000;
+	
+}
+
+/*--Location--*/
+#location-about{
+	float:left
+	background-color:#f2f2f2;
+  	margin-top:50px
+}
+
+.location-container h1{
+	margin:auto;
+	font-family: 'Oswald', sans-serif;
+	font-size:25px;
+	color:black;
+	text-align:center;
+}
+
+.location-container{
+	margin:auto;
+	width:1170px;
+}
+
+.location-imgs{
+	float:left;
+	margin-top:70px;
+	width:545px;
+}
+
+.loc-img1{
+	width:165px;
+	height:165px;
+	margin-right:24px;
+	background-color:#000;
+	float:left;
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img2{
+	width:165px;
+	height:165px;
+	background-color:#000;
+	float:left;
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.loc-img3{
+	width:165px;
+	height:165px;
+	background-color:#000;
+	float:right;
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img4{
+	width:165px;
+	height:165px;
+		margin-right:24px;
+	background-color:#000;
+	float:left;
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img5{
+	width:165px;
+	height:165px;
+	background-color:#000;
+	float:left;	
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img6{
+	width:165px;
+	height:165px;
+	background-color:#000;
+	float:right;	
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img7{
+	width:165px;
+	margin-right:24px;
+	height:165px;
+	background-color:#000;
+	float:left;	
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img8{
+	width:165px;
+	height:165px;
+	background-color:#000;
+	float:left;	
+	margin-bottom:24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.loc-img9{
+	width:165px;
+	height:165px;
+	background-color:#000;
+	float:right;
+	margin-bottom:24px;	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.location-info{
+	float:right;
+	margin-right:24px;
+	margin-top:33px;
+	width:585px;
+	padding-bottom:25px
+}
+
+.location-info p{
+	text-align:left;
+	color:black;
+	font-family: 'Vollkorn', serif;
+	 
+		
+}
+
+
+/*-Locations Button--*/
+.loc-button-container{
+	float:left;
+	margin-top:50px;
+	width:1170px;
+	margin-bottom:50px;
+}
+.loc-button{
+	margin:auto;
+	width:385px;
+		
+}
+
+a.loc-btn, a.loc-btn:link, a.loc-btn:visited, a.showloc-btn, a.showloc-btn:link, a.showloc-btn:visited {
+	font-family: 'Sofia', cursive;	
+    display:inline-block;
+    color:#000;
+    background-color:#D4D4D4;
+    font-weight:bold;
+    font-size:40px;
+    text-align:center;
+    padding:0.7% 2.0%;
+    text-decoration:none;
+    margin-left:0;
+    margin-top:15px;
+    margin-bottom:5px;
+    border:1px solid #D4D4D4;
+    border-radius:15px;
+    white-space:nowrap;
+	opacity:0.7;
+}
+
+a.loc-btn:hover,a.loc-btn:active,a.show-btn:hover,a.show-btn:active {
+    background-color:#D4D4D4;
+    color:#8AC007;
+	opacity:0.9;
+}
+/*--Home Locations Button--*/
+
+/* ------------------------------------------
+  MUSSENDEN CONTENT STYLES END
+--------------------------------------------- */
+
+
+/* ------------------------------------------
+  RESPONSIVE NAV STYLES
+--------------------------------------------- */
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 65em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+/* ------------------------------------------
+  FIXED HEADER
+--------------------------------------------- */
+
+header {
+  background: #f2f2f2;
+  position: fixed;
+  z-index: 60;
+  width: 100%;
+  height:75px;
+  left: 0;
+  top: 0;
+
+      box-shadow: 5px 5px 5px #676767; 
+    -moz-box-shadow: 5px 5px 5px #676767;
+    -webkit-box-shadow: 5px 5px 5px #676767;
+
+
+}
+
+.logo {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 0px 0px 40px;
+  color: #f2f2f2;
+  float: left;
+}
+
+
+/* ------------------------------------------
+  MASK
+--------------------------------------------- */
+
+.mask {
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  transition: opacity 300ms;
+  background: rgba(0,0,0, .5);
+  visibility: hidden;
+  position: fixed;
+  opacity: 0;
+  z-index: 50;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.android .mask {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.js-nav-active .mask {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (min-width: 65em) {
+  .mask {
+    display: none !important;
+    opacity: 0 !important;
+  }
+}
+
+
+/* ------------------------------------------
+  NAVIGATION STYLES
+--------------------------------------------- */
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nav-collapse,
+.nav-collapse * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-collapse,
+.nav-collapse ul {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 65em) {
+  .nav-collapse {
+    float: right;
+    width: auto;
+  }
+}
+
+.nav-collapse li {
+  float: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 65em) {
+  .nav-collapse li {
+    width: auto;
+  }
+}
+
+/*-Main menu nav config-*/
+.nav-collapse a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  border-top: 1px solid black;
+  text-decoration: none;
+  background: #f2f2f2;
+  padding: 0.7em 1em;
+  color: #000;
+  width: 100%;
+  float: left;
+  height:40px;
+}
+/*-Main menu nav config-*/
+
+
+.nav-collapse a:active,
+.nav-collapse .active a {
+  background: #CCC;
+  
+}
+
+/*-Main menu nav config-*/
+@media screen and (min-width: 65em) {
+  .nav-collapse a {
+    padding: 1.75em 2em;
+    text-align: center;
+    border-top: 0;
+    float: left;
+    margin: 0;
+	height:75px;
+  }
+}
+/*-Main menu nav config-*/
+
+.nav-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+  border-right:0px;
+}
+
+@media screen and (min-width: 65em) {
+  .nav-collapse ul ul a {
+    display: none;
+  }
+}
+
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+
+@font-face {
+  font-family: "responsivenav";
+  src:url("../icons/responsivenav.eot");
+  src:url("../icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../icons/responsivenav.ttf") format("truetype"),
+    url("../icons/responsivenav.woff") format("woff"),
+    url("../icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-toggle {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  text-indent: -300px;
+  position: relative;
+  overflow: hidden;
+  width: 60px;
+  height: 75px;
+  float: right;
+}
+
+.nav-toggle:before {
+  color: #000; /* Edit this to change the icon color */
+  font: normal 28px/55px "responsivenav"; /* Edit font-size (28px) to change the icon size */
+  text-transform: none;
+  text-align: center;
+  position: absolute;
+  content: "\2261"; /* Hamburger icon */
+  text-indent: 0;
+  speak: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nav-toggle.active:before {
+  font-size: 24px;
+  content: "\78"; /* Close icon */
+}
+
+
+
+.menu-item {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-item + .menu-item {
+}
+
+.menu-item + .menu-item::before {
+    content: '';
+    border-left: 1px solid #000;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    top: 25%;
+}
+
+@media screen and (max-width: 65em) {
+.menu-item + .menu-item::before {
+    content: '';
+    border-left: 0px solid #fff;
+    position: absolute;
+    height: 50%;
+    left: 0;
+    top: 25%;
+
+}
+}
+
