@@ -22,9 +22,9 @@ a:hover {
 
 
 h3, h4, h5, h6 {
-    
+
     font-size:24px;
-    
+
 }
 
 
@@ -89,14 +89,14 @@ p {
     margin:auto;
     padding:auto;
     width:1170px;
-    
+
 }
 
 .home-catch{
     float:left;
     margin-top:100px;
     width:1170px;
-    
+
 }
 
 .home-catch h2{
@@ -104,14 +104,14 @@ p {
     font-family: 'Dancing Script', cursive;
     font-size:120px;
     color:white;
-    
+
 }
 
 .home-title{
     float:left;
     margin-top:80px;
     width:1170px;
-    
+
 }
 
 .home-title h1{
@@ -131,7 +131,7 @@ p {
     margin-left:auto;
     margin-right:auto;
     width:600px;
-        
+
 }
 
 .home-content h2{
@@ -139,7 +139,7 @@ p {
     font-size:75px;
     color:white;
     line-height:normal;
-    
+
 }
 
 /*--Home Locations Button--*/
@@ -151,7 +151,7 @@ p {
 .home-button{
     margin:auto;
     width:385px;
-        
+
 }
 
 a.btn, a.btn:link, a.btn:visited, a.showbtn, a.showbtn:link, a.showbtn:visited {
@@ -213,7 +213,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     float:left;
     margin-top:50px;
     width:1170px;
-    
+
 }
 
 .about-title h3{
@@ -221,7 +221,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     font-family: 'Dancing Script', cursive;
     font-size:90px;
     color:black;
-    
+
 }
 
 .about-img{
@@ -240,8 +240,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     text-align:center;
     color:black;
     font-family: 'Vollkorn', serif;
-     
-        
+
+
 }
 
 /* ------------------------------------------
@@ -287,7 +287,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     margin-top:50px;
     width:1170px;
     height:100px;
-    
+
 }
 
 .things-title h4{
@@ -296,7 +296,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     font-size:115px;
     color:white;
     line-height:1;
-    
+
 }
 
 .things-hex {
@@ -311,7 +311,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     margin-left:auto;
     margin-right:auto;
     width:1080px;
-    
+
 }
 
 #hex1 {
@@ -322,12 +322,12 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 #hex2 {
     padding-right:20px;
     float:left;
-    
+
 }
 
 .flip-line{
     padding-left:135px;
-    
+
 }
 
 /* entire container, keeps perspective */
@@ -409,17 +409,15 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 
 .map-content{
     margin:auto;
-    padding:auto;
-    width:1170px;
+    width:100%;
     position:absolute;
     top:0;
-    left:10%;
 }
 
 .map-title{
     float:left;
     margin-top:20px;
-    width:1170px;
+    width:100%;
     height:150px;
 }
 
@@ -432,7 +430,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     line-height:normal;
     text-align: center;
 
-    
+
 }
 
 .map-canvas{
@@ -601,7 +599,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     margin-top:20px;
     width:1170px;
     height:170px;
-    
+
 }
 
 #businesses {
@@ -628,7 +626,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     margin-top:10px;
     width:1170px;
     height:80px;
-    
+
 }
 
 .businesses-content{
@@ -637,7 +635,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     padding:auto;
     width:1170px;
     height:370px;
-    
+
 }
 
 
@@ -665,7 +663,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     width:1170px;
     height:50px;
     opacity:0.5;
-    
+
 }
 
 #local h1 {
@@ -844,9 +842,9 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 }
 
 #port-home .home-title {
-    
+
     color:#000000;
-    
+
 }
 
 /*--Location--*/
@@ -885,7 +883,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img2{
@@ -908,7 +906,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img4{
@@ -921,7 +919,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img5{
@@ -933,7 +931,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img6{
@@ -945,7 +943,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img7{
@@ -958,7 +956,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img8{
@@ -970,7 +968,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .loc-img9{
@@ -982,7 +980,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    
+
 }
 
 .location-info{
@@ -997,8 +995,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     text-align:left;
     color:black;
     font-family: 'Vollkorn', serif;
-     
-        
+
+
 }
 
 
@@ -1012,7 +1010,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 .loc-button{
     margin:auto;
     width:385px;
-        
+
 }
 
 a.loc-btn, a.loc-btn:link, a.loc-btn:visited, a.showloc-btn, a.showloc-btn:link, a.showloc-btn:visited {
