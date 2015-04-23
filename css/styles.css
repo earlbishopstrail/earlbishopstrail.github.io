@@ -673,6 +673,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
       line-height:none;
     color:#FFF;
 
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+
 }
 
 #local h2 {
@@ -681,6 +683,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
       font-size: 85px;
       line-height:none;
     color:#FFF;
+
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 #local h3 {
@@ -689,6 +693,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     font-size: 70px;
       line-height:none;
     color:#FFF;
+
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 #local h4 {
@@ -699,6 +705,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align:center;
+
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 #local p {
