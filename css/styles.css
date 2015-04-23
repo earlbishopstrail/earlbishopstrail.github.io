@@ -104,7 +104,7 @@ p {
     font-family: 'Dancing Script', cursive;
     font-size:120px;
     color:white;
-
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 .home-title{
@@ -119,6 +119,7 @@ p {
     font-family: 'Oswald', sans-serif;
     font-size:100px;
     color:white;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 .home-info{
@@ -139,7 +140,7 @@ p {
     font-size:75px;
     color:white;
     line-height:normal;
-
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 /*--Home Locations Button--*/
@@ -296,7 +297,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     font-size:115px;
     color:white;
     line-height:1;
-
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 .things-hex {
@@ -428,7 +429,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     color:white;
     line-height:normal;
     text-align: center;
-
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 
 }
 
