@@ -584,6 +584,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     width:1170px;
     height:95px;
     font-family: 'Dancing Script', cursive;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 .local-title{
@@ -592,6 +593,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     width:1170px;
     height:85px;
     font-family: 'Oswald', sans-serif;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 .local-name{
