@@ -576,6 +576,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     padding:auto;
     width:1170px;
     height:592px;
+    text-align: center;
 }
 
 .local-catch{
