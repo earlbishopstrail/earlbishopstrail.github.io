@@ -403,7 +403,7 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     margin:auto;
     padding:auto;
     width:100%;
-    height:925px;
+    height:100vh;
     position:relative;
     z-index:10;
 }
@@ -706,7 +706,6 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align:center;
-
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
