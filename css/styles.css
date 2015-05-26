@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 /*Main Document Styling */
@@ -20,6 +21,8 @@ height:auto;
 	
 }
 
+=======
+>>>>>>> parent of cc3fb11... css changes
 body, div,
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
@@ -49,6 +52,7 @@ h3, h4, h5, h6 {
 
 }
 
+<<<<<<< HEAD
 h3 {
 	font-family: 'Dancing Script', cursive;
 }
@@ -143,6 +147,8 @@ h6 {
 }
 
 
+=======
+>>>>>>> parent of cc3fb11... css changes
 
 /* ------------------------------------------
   HOME CONTENT STYLES
@@ -180,23 +186,20 @@ p {
   margin: 0 auto;
 }
 
-/*-----------------------------------
-	Home Content Styles - Desktop
--------------------------------------*/
+
 
 #home {
-    float:left;
-  	border-bottom: 1px solid #999;
-	height:100%;
-  	width: 100%;
- 	background:url(../img/white-rocks.jpg); /*  url(../img/white-rocks.jpg) no-repeat center center fixed */
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size:cover;
-   	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-color:; /*Lime #CF3 */
+        float:left;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  height:980px;
+  width: 100%;
+ background: url(../img/white-rocks.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 #home img: {
@@ -204,6 +207,7 @@ p {
     height:auto;
 }
 
+<<<<<<< HEAD
 #home-center{
 	width:90%;
 	height:100%;
@@ -219,47 +223,75 @@ p {
 	margin:0 auto;
 	background-color:; /* Light Purple #969 */
 	
+=======
+.home-container{
+    margin:auto;
+    padding:auto;
+    width:1170px;
+
 }
 
-.home-catch {
+.home-catch{
+    float:left;
+    margin-top:100px;
+    width:1170px;
+
+>>>>>>> parent of cc3fb11... css changes
+}
+
+.home-catch h2{
+    margin:auto;
     font-family: 'Dancing Script', cursive;
-    font-size:7.5em;
-    color:#fff;
+    font-size:120px;
+    color:white;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
-.home-title {
-	font-family: 'Oswald', sans-serif;
-    font-size:6em;
-    color:#fff;
-    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+.home-title{
+    float:left;
+    margin-top:80px;
+    width:1170px;
 
 }
 
-.home-content {
+.home-title h1{
+    margin:auto;
+    font-family: 'Oswald', sans-serif;
+    font-size:100px;
+    color:white;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+}
+
+.home-info{
+    float:left;
+    margin-top:30px;
+    width:1170px;
+}
+
+.home-content{
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+
+}
+
+.home-content h2{
     font-family: 'Dancing Script', cursive;
-    font-size:4.5em;
-    color:#fff;
+    font-size:75px;
+    color:white;
     line-height:normal;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 /*--Home Locations Button--*/
-
-#home-button-container {
-	position:relative;
+.home-button-container{
     float:left;
- width:100%;
- height:15%;
- margin: 0 auto;
- background-color:; /* Strange Blue #63F */
-
+    margin-top:50px;
+    width:1170px;
 }
-
-.home-button {
-	text-align:center;
-    margin:0 auto;
-    width:50%;
+.home-button{
+    margin:auto;
+    width:385px;
 
 }
 
@@ -318,34 +350,34 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     width:1170px;
 }
 
-#about-title {
-	margin:0 auto;
-	width:100%;
-	height:15%;
-	background-color:; /* Red #F33 */
-}
 .about-title{
-margin:0 auto;
-padding-top:1%;
- font-size:5.5em;
-}
-
-#about-img {
     float:left;
-width:100%;
-height:40%;
-margin: 0 auto;
-padding: 0;
+    margin-top:50px;
+    width:1170px;
+
 }
 
-#about-info{
+.about-title h3{
+    margin:auto;
+    font-family: 'Dancing Script', cursive;
+    font-size:90px;
+    color:black;
+
+}
+
+.about-img{
     float:left;
-	width:80%;
-	height:auto;
-	padding: 0 10%;
+    width:1170px;
+    margin-top:33px;
 }
 
-.about-info {
+.about-info{
+    float:left;
+    margin-top:33px;
+    width:1170px;
+}
+
+.about-info p{
     text-align:center;
     color:black;
     font-family: 'Vollkorn', serif;
@@ -363,16 +395,12 @@ padding: 0;
 --------------------------------------------- */
 
 #things{
-    background: url(../img/carrick-a-rede.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center center;
+    background: url(../img/carrick-a-rede.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width:100%;
-  height:100%;
+  height:940px;
 }
 
 #about section {
@@ -388,27 +416,33 @@ padding: 0;
     height:auto;
 }
 
-#things-title{
+.things-container{
+    margin:auto;
+    padding:auto;
+    width:1170px;
+    height:960px;
+}
+
+.things-title{
     float:left;
-    width:100%;
-    height:15%;
-	padding-top:2%;
+    margin-top:50px;
+    width:1170px;
+    height:100px;
 
 }
 
-.things-title {
+.things-title h4{
     margin:auto;
     font-family: 'Dancing Script', cursive;
-    font-size:7em;
-    color:#fff;
+    font-size:115px;
+    color:white;
     line-height:1;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
-#things-hex {
+.things-hex {
     margin-top:100px;
-    width:100%;
-	margin:0 auto;
+    width:1170px;
     float:left;
 }
 
