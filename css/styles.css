@@ -14,7 +14,7 @@ float:left;
 margin:0;
 padding:0;
 width:100%;
-height:100%;	
+height:auto;	
 	
 }
 
@@ -154,6 +154,8 @@ p {
     line-height:normal;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%;
 }
 
 /*--Home Locations Button--*/
@@ -227,7 +229,8 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 .about-container{
     margin:auto;
     padding:auto;
-    width:1170px;
+    width:100%;
+	height:auto;
 }
 
 #about-title {
@@ -236,10 +239,12 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 	height:15%;
 	background-color:; /* Red #F33 */
 }
-.about-title{
-margin:0 auto;
-padding-top:1%;
- font-size:5.5em;
+.about-title h3{
+ 
+ font-family: 'Dancing Script', cursive;
+    font-size:3em;
+text-align:center;
+padding-top:2%;
 }
 
 #about-img {
@@ -274,7 +279,7 @@ padding: 0;
   THINGS CONTENT STYLES
 --------------------------------------------- */
 
-#things{
+#places{
     background: url(../img/carrick-a-rede.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -295,7 +300,7 @@ padding: 0;
 }
 
 
-#things img: {
+#places img: {
     width:100%;
     height:auto;
 }
@@ -304,17 +309,16 @@ padding: 0;
     float:left;
     width:100%;
     height:15%;
-	padding-top:2%;
 
 }
 
 .things-title {
-    margin:auto;
     font-family: 'Dancing Script', cursive;
-    font-size:7em;
+    font-size:3em;
     color:#fff;
-    line-height:1;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	padding-top:2%;
+	text-align:center;
 }
 
 #things-hex {
@@ -326,20 +330,45 @@ padding: 0;
 
 /* HEX CONTENT */
 
+.hexicon {
+	width:25%;
+	height:auto;
+	float:left;
+	padding:0;	
+	background-color:; /*#1A789A*/
+	
+	
+}
+
+.hexicon-wpadding{
+	width:25%;
+	height:auto;
+	float:left;
+	padding-left:12.5%;	
+	background-color:; /*#C9070A*/
+	
+	
+}
+
+.hexicon img {
+	width:90%;
+	padding:0 1% 0 1%;
+	height:auto;	
+}
+
 #hex-container{
-    margin-left:auto;
-    margin-right:auto;
-    width:1080px;
+    margin:auto;
+    width:80%;
+	height:auto;
+	padding-top:0;
 
 }
 
 #hex1 {
     float:left;
-    padding-right:20px;
 }
 
 #hex2 {
-    padding-right:20px;
     float:left;
 
 }
@@ -477,7 +506,7 @@ padding: 0;
 }
 
 .contact-container {
-    width:1170px;
+    width:100%;
     height:auto;
     margin:auto;
     padding: 50px 0;
@@ -486,10 +515,10 @@ padding: 0;
 
 .contact-title {
     float:left;
-    width:1170px;
+    width:95%;
     height:auto;
     margin:auto;
-    padding: 20px 0;
+    padding: 2% 2.5%;
 }
 
 .contact-title h5{
@@ -501,11 +530,12 @@ padding: 0;
 
 .contact-info {
     float:left;
-    width:1170px;
+    width:95%;
     height:auto;
     margin:auto;
-    padding-top: 10px;
-    padding-bottom:20px;
+    padding-top: 1%;
+	padding-left:2.5%;
+    padding-bottom:2%;
 }
 
 .contact-info h6{
@@ -517,7 +547,7 @@ padding: 0;
 
 #contact .contact-container form input,
 #contact .contact-container form textarea {
-    width:97.4%;
+    width:95%;
     height:30px;
     padding:5px 10px;
     font-size: 12px;
@@ -541,7 +571,7 @@ padding: 0;
     height:150px;}
 
 #contact .contact-container form .submit {
-    width:100%;
+    width:95%;
     padding:5px 10px;
     font-size: 12px;
     letter-spacing:1px;

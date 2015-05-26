@@ -6,7 +6,8 @@
     <meta name="author" content="Adtile">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
-    <!--[if lt IE 9]>
+    <link href="css/mediastyle.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <link rel="stylesheet" href="css/ie.css">
     <![endif]-->
@@ -14,6 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Sofia|Dancing+Script:400,700|Oswald:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="favicon.ico"/>
+	
   </head>
   <body>
 
@@ -23,7 +25,7 @@
         <ul>
           <li class="menu-item"><a href="#home" data-scroll>Home</a></li>
           <li class="menu-item"><a href="#about" data-scroll>About</a></li>
-          <li class="menu-item"><a href="#things" data-scroll>Places To See</a></li>
+          <li class="menu-item"><a href="#places" data-scroll>Places To See</a></li>
           <li class="menu-item"><a href="#map" data-scroll>Map</a></li>
           <li class="menu-item"><a href="local-business-1.html#local" data-scroll>Local Business</a></li>
           <li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
@@ -41,12 +43,11 @@
         </div>
         <div class="home-info">
            <div class="home-content">
-            <h2>~</h2>
-           	<h2>Discover the heritage of Frederick Hervey</h2>
+           	<h2>~ Discover the heritage of Frederick Hervey ~</h2>
            </div>
         </div>
         <div class="home-button-container">
-        <div class="home-button "><a href="#things" class="btn" data-scroll>View Locations » </a></div>
+        <div class="home-button "><a href="#places" class="btn" data-scroll>View Locations » </a></div>
         </div>
       </div>
     </section>
@@ -69,14 +70,15 @@
       </div>
     </section>
 
-    <section id="things">
+    <section id="places" class="container">
     <div class="things-container">
 		<div class="things-title">
-        <h4>~ Places To See ~</h4>
+        <h2>~ Places To See ~</h2>
         </div>
         <div class="things-hex">
         <div id="hex-container" align="center">
-        
+      
+        <div class="hexicon"><!-- 1 Giants Causeway -->
             <div id="hex1">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
@@ -91,6 +93,10 @@
                 </div>
             </div>
             </div>
+            </div>
+            
+            
+          <div class="hexicon"> <!-- 2 Downhill-->
             <div id="hex2">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
@@ -105,6 +111,11 @@
                 </div>
             </div>
             </div>
+            </div>
+            
+            
+            
+            <div class="hexicon"><!-- 3 Dunluce -->
                         <div id="hex1">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
@@ -119,6 +130,9 @@
                 </div>
             </div>
             </div>
+            </div>
+            
+            <div class="hexicon"><!-- 4 Portrush -->
             <div id="hex2">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
@@ -134,7 +148,10 @@
                 <br>
             </div>
             </div>
-                        <div id="hex1" class="flip-line">
+            </div>
+            
+            <div class="hexicon-wpadding"><!-- 5 Derry -->
+                        <div id="hex1">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
@@ -148,6 +165,11 @@
                 </div>
             </div>
             </div>
+            </div>
+            
+            
+            
+           <div class="hexicon"><!-- 6  --> 
             <div id="hex2">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
@@ -162,7 +184,13 @@
                 </div>
             </div>
             </div>
-                        <div id="hex1">
+            </div>
+                       
+                       
+                       
+                       
+            <div class="hexicon"><!-- 7  -->           
+                       <div id="hex1">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                 <div class="flipper">
                     <div class="front">
@@ -176,13 +204,14 @@
                 </div>
             </div>
             </div>
-            
+              
+            </div>
             </div>
         </div>
     </div>
     </section> 
 
-    <section id="map">
+    <section id="map" class="container">
     <div class="map-container">
     <div class="map-content">
     <div class="map-title">
@@ -197,7 +226,7 @@
     </section>
 
     
-    <section id="contact">
+    <section id="contact" class="container">
   
         <div class="contact-container">
             <div class="contact-title">
