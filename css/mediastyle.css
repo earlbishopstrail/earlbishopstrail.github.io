@@ -14,6 +14,175 @@
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) and (max-device-height : 640px) {
 /* Styles */
+#about-info p {
+	font-size:0.5em;
+	
+}
+#home-center{
+	width:80%;
+	height:100%;
+    margin: 0 auto;
+	background-color:; /* Green #0C9 */
+	text-align:center;
+}
+
+#home-text {
+	padding-left:10%;
+	padding-top:15%;
+	width:80%;
+	height:55%;
+	margin:0 auto;
+	background-color:; /* Light Purple #969 */
+	
+}
+
+.home-catch {
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	padding-top:35%;
+	text-align:center;
+}
+
+.home-title {
+	font-family: 'Oswald', sans-serif;
+    font-size:1.5em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	text-align:center;
+	padding-bottom:2.5%;
+
+}
+
+.home-content {
+    font-family: 'Dancing Script', cursive;
+    font-size:1em;
+    color:#fff;
+    line-height:normal;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:2%;
+}
+
+/*--Home Locations Button--*/
+
+#home-button-container {
+	position:relative;
+    float:left;
+ width:100%;
+ height:15%;
+ margin: 0 auto;
+ background-color:; /* Strange Blue #63F */
+
+}
+
+.home-button {
+	text-align:center;
+    margin:0 auto;
+    width:50%;
+
+}
+
+a.btn, a.btn:link, a.btn:visited, a.showbtn, a.showbtn:link, a.showbtn:visited {
+    font-family: 'Sofia', cursive;
+    display:inline-block;
+    color:#000;
+    background-color:#f2f2f2;
+    font-weight:bold;
+    font-size:1.5em;
+    text-align:center;
+    padding:0.7% 2.0%;
+    text-decoration:none;
+    margin-left:0;
+    margin-top:15px;
+    margin-bottom:5px;
+    border:1px solid #f2f2f2;
+    border-radius:15px;
+    white-space:nowrap;
+    opacity:0.7;
+}
+
+a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
+    background-color:#f2f2f2;
+    color:#8AC007;
+    opacity:1;
+}
+
+/*--------------------------------
+			About Section
+--------------------------------------*/
+
+#about-img img{
+    float:none;
+width:80%;
+height:auto;
+margin: 0 auto;
+padding: 0;
+}
+
+/*----------------------------------------
+			Places Section
+--------------------------------------*/
+
+#things-title{
+    float:left;
+    width:100%;
+    height:15%;
+
+}
+
+.things-title {
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	padding-top:2%;
+	text-align:center;
+}
+
+.hexicon {
+	width:25%;
+	height:auto;
+	float:left;
+	padding:0;	
+	background-color:; /*#1A789A*/
+	
+	
+}
+
+.hexicon-wpadding{
+	width:25%;
+	height:auto;
+	float:left;
+	padding-left:;	
+	background-color:; /*#C9070A*/
+	
+	
+}
+
+.hexicon img {
+	width:25%;
+	padding:; /* 0 1% 0 1% */
+	height:auto;	
+}
+.hexicon-wpadding img {
+	width:25%;
+	padding:0 1% 0 1%;
+	height:auto;	
+}
+
+#hex-container{
+    margin:auto;
+    width:90%;
+	height:auto;
+	padding-top:0;
+
+}
+
+
+
 
 
 }
@@ -26,6 +195,26 @@
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 /* Styles */
+
+.home-catch {
+	padding-top:15%;
+	padding-bottom:2.5%;
+	
+	
+}
+
+.home-title {
+	padding-bottom:2.5%;
+	
+	
+	
+}
+
+.home-content {
+	padding-bottom:2.5%;
+	
+	
+}
 
 .hexicon {
 	width:25%;
@@ -66,6 +255,26 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 /* Styles */
 
+.home-catch {
+	padding-top:30%;
+	padding-bottom:2.5%;
+	
+	
+}
+
+.home-title {
+	padding-bottom:2.5%;
+	
+	
+	
+}
+
+.home-content {
+	padding-bottom:3%;
+	
+	
+}
+
 .hexicon {
 	width:33.33%;
 	height:auto;
@@ -97,6 +306,21 @@
 	padding:0 1% 0 1%;
 	height:auto;	
 }
+#location-left {
+	width:100%;
+	heigth:50%;
+	float:right;
+
+	
+}
+
+#location-right {
+		width:100%;
+		float:left;
+	heigth:50%;
+	
+	
+}
 
 
 }
@@ -120,6 +344,143 @@ iPad 3
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 /* Styles */
+
+#home-center{
+	width:80%;
+	height:100%;
+    margin: 0 auto;
+	background-color:; /* Green #0C9 */
+	text-align:center;
+}
+
+#home-text {
+	padding:10%;
+	width:80%;
+	height:55%;
+	margin:0 auto;
+	background-color:; /* Light Purple #969 */
+	
+}
+
+.home-catch {
+    font-family: 'Dancing Script', cursive;
+    font-size:5em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	padding-top:10%;
+	text-align:center;
+}
+
+.home-title {
+	font-family: 'Oswald', sans-serif;
+    font-size:6em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	text-align:center;
+
+}
+
+.home-content {
+    font-family: 'Dancing Script', cursive;
+    font-size:3.5em;
+    color:#fff;
+    line-height:normal;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:2%;
+}
+
+/*--Home Locations Button--*/
+
+#home-button-container {
+	position:relative;
+    float:left;
+ width:100%;
+ height:15%;
+ margin: 0 auto;
+ background-color:; /* Strange Blue #63F */
+
+}
+
+.home-button {
+	text-align:center;
+    margin:0 auto;
+    width:50%;
+
+}
+
+a.btn, a.btn:link, a.btn:visited, a.showbtn, a.showbtn:link, a.showbtn:visited {
+    font-family: 'Sofia', cursive;
+    display:inline-block;
+    color:#000;
+    background-color:#f2f2f2;
+    font-weight:bold;
+    font-size:3em;
+    text-align:center;
+    padding:0.7% 2.0%;
+    text-decoration:none;
+    margin-left:0;
+    margin-top:15px;
+    margin-bottom:5px;
+    border:1px solid #f2f2f2;
+    border-radius:15px;
+    white-space:nowrap;
+    opacity:0.7;
+}
+
+a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
+    background-color:#f2f2f2;
+    color:#8AC007;
+    opacity:1;
+}
+
+/*---------------------------------------
+				HEX SHAPES RESPONSIVE
+--------------------------------------------------*/
+
+#hex-container{
+    margin:auto;
+    width:80%;
+	height:100%;
+	padding-top:5%;
+
+}
+
+.hexicon {
+	width:25%;
+	height:auto;
+	float:left;
+	padding:0;	
+	background-color:; /*#1A789A*/
+	
+	
+}
+
+.hexicon-wpadding {
+	width:25%;
+	height:auto;
+	float:left;
+	padding-left:;	
+	background-color:; /*#C9070A*/
+	
+	
+}
+
+.hexicon-wpadding img {
+	width:100%;
+	padding:0 1% 0 1%;
+	height:auto;	
+}
+
+.hexicon img {
+	width:100%;
+	padding:0 1% 0 1%;
+	height:auto;	
+}
+
+
+
 }
 
 /* iPhone 4 ----------- */
@@ -147,7 +508,68 @@ iPad 3
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
+.home-catch {
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	padding-top:45%;
+	text-align:center;
+}
 
+.home-title {
+	font-family: 'Oswald', sans-serif;
+    font-size:2em;
+    color:#fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	text-align:center;
+	padding-bottom:2.5%;
+
+}
+
+.home-content {
+    font-family: 'Dancing Script', cursive;
+    font-size:1em;
+    color:#fff;
+    line-height:normal;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:10%;
+}
+
+.home-button {
+	text-align:center;
+    margin:0 auto;
+    width:50%;
+
+}
+
+a.btn, a.btn:link, a.btn:visited, a.showbtn, a.showbtn:link, a.showbtn:visited {
+    font-family: 'Sofia', cursive;
+    display:inline-block;
+    color:#000;
+    background-color:#f2f2f2;
+    font-weight:bold;
+    font-size:1.5em;
+    text-align:center;
+    padding:0.7%;
+    text-decoration:none;
+    margin-left:0;
+    margin-top:15px;
+    margin-bottom:5px;
+    border:1px solid #f2f2f2;
+    border-radius:15px;
+    white-space:nowrap;
+    opacity:0.7;
+	
+}
+
+a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
+    background-color:#f2f2f2;
+    color:#8AC007;
+    opacity:1;
+}
 
 }
 
