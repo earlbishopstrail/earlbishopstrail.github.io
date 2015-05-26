@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 /*Main Document Styling */
 
 body, html {
@@ -17,12 +14,10 @@ float:left;
 margin:0;
 padding:0;
 width:100%;
-height:auto;	
+height:100%;	
 	
 }
 
-=======
->>>>>>> parent of cc3fb11... css changes
 body, div,
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
@@ -52,103 +47,10 @@ h3, h4, h5, h6 {
 
 }
 
-<<<<<<< HEAD
 h3 {
 	font-family: 'Dancing Script', cursive;
 }
 
-/*----------------------------------------------
-				TYPOGRAPHY
------------------------------------------------*/
-
-p {
-	font-family:Arial, sans-serif;
-	font-size:1em;
-	}
-
-h1 {
-	font-family:Oswald;
-	
-}
-
-h2 {
-	font-family:Dancing Script;
-	
-}
-
-h3 {
-	font-family:Oswald;	
-}
-
-h4 {
-	
-}
-
-h5 {
-	font-family:Oswald;	
-	font-size:2em;
-	
-}
-
-h6 {
-	
-}
-
-/*-------------------
-	TYPOGRAPHY CLASSES
----------------------- */
-#title {
-	width:80%;
-	height:auto;
-	margin:auto;
-	text-align:center;
-}
-#title-top {
-	width:90%;
-	height:auto;
-	margin:auto;	
-	padding-top:2.5%;
-	text-align:center;
-}
-#title-bottom {
-	width:100%;
-	height:auto;
-	margin:auto;
-	text-align:center;
-}
-
-#title h1 {
-	font-size:5em;
-	color:#fff;
-	text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
-	
-	/* Development Styling */
-	
-	background-color:#FF0004; /* Red FF0004 */
-}
-#title-top h2 {
-	font-size:4em;
-	color:#fff;
-	text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
-	
-	/* Development Styling */
-	
-	background-color:#FF0004; /* Red FF0004 */
-}
-#title-bottom h2{
-	font-size:4em;
-	color:#fff;
-	text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
-	
-	/* Development Styling */
-	
-	background-color:#FF0004; /* Red FF0004 */
-	
-}
-
-
-=======
->>>>>>> parent of cc3fb11... css changes
 
 /* ------------------------------------------
   HOME CONTENT STYLES
@@ -186,20 +88,23 @@ p {
   margin: 0 auto;
 }
 
-
+/*-----------------------------------
+	Home Content Styles - Desktop
+-------------------------------------*/
 
 #home {
-        float:left;
-  border-bottom: 1px solid #999;
-  text-align: center;
-  height:980px;
-  width: 100%;
- background: url(../img/white-rocks.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+    float:left;
+  	border-bottom: 1px solid #999;
+	height:100%;
+  	width: 100%;
+ 	background:url(../img/white-rocks.jpg); /*  url(../img/white-rocks.jpg) no-repeat center center fixed */
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+   	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-color:; /*Lime #CF3 */
 }
 
 #home img: {
@@ -207,91 +112,62 @@ p {
     height:auto;
 }
 
-<<<<<<< HEAD
 #home-center{
-	width:90%;
+	width:80%;
 	height:100%;
     margin: 0 auto;
-	background-color:#0C9; /* Green #0C9 */
+	background-color:; /* Green #0C9 */
 	text-align:center;
 }
 
 #home-text {
-	padding-top:10%;
-	width:100%;
+	padding:10%;
+	width:80%;
 	height:55%;
 	margin:0 auto;
 	background-color:; /* Light Purple #969 */
 	
-=======
-.home-container{
-    margin:auto;
-    padding:auto;
-    width:1170px;
-
 }
 
-.home-catch{
-    float:left;
-    margin-top:100px;
-    width:1170px;
-
->>>>>>> parent of cc3fb11... css changes
-}
-
-.home-catch h2{
-    margin:auto;
+.home-catch {
     font-family: 'Dancing Script', cursive;
-    font-size:120px;
-    color:white;
+    font-size:7.5em;
+    color:#fff;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
-.home-title{
-    float:left;
-    margin-top:80px;
-    width:1170px;
-
-}
-
-.home-title h1{
-    margin:auto;
-    font-family: 'Oswald', sans-serif;
-    font-size:100px;
-    color:white;
+.home-title {
+	font-family: 'Oswald', sans-serif;
+    font-size:6em;
+    color:#fff;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
-}
-
-.home-info{
-    float:left;
-    margin-top:30px;
-    width:1170px;
-}
-
-.home-content{
-    margin-left:auto;
-    margin-right:auto;
-    width:600px;
 
 }
 
-.home-content h2{
+.home-content {
     font-family: 'Dancing Script', cursive;
-    font-size:75px;
-    color:white;
+    font-size:4.5em;
+    color:#fff;
     line-height:normal;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
 /*--Home Locations Button--*/
-.home-button-container{
+
+#home-button-container {
+	position:relative;
     float:left;
-    margin-top:50px;
-    width:1170px;
+ width:100%;
+ height:15%;
+ margin: 0 auto;
+ background-color:; /* Strange Blue #63F */
+
 }
-.home-button{
-    margin:auto;
-    width:385px;
+
+.home-button {
+	text-align:center;
+    margin:0 auto;
+    width:50%;
 
 }
 
@@ -350,34 +226,34 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     width:1170px;
 }
 
+#about-title {
+	margin:0 auto;
+	width:100%;
+	height:15%;
+	background-color:; /* Red #F33 */
+}
 .about-title{
+margin:0 auto;
+padding-top:1%;
+ font-size:5.5em;
+}
+
+#about-img {
     float:left;
-    margin-top:50px;
-    width:1170px;
-
+width:100%;
+height:40%;
+margin: 0 auto;
+padding: 0;
 }
 
-.about-title h3{
-    margin:auto;
-    font-family: 'Dancing Script', cursive;
-    font-size:90px;
-    color:black;
-
-}
-
-.about-img{
+#about-info{
     float:left;
-    width:1170px;
-    margin-top:33px;
+	width:80%;
+	height:auto;
+	padding: 0 10%;
 }
 
-.about-info{
-    float:left;
-    margin-top:33px;
-    width:1170px;
-}
-
-.about-info p{
+.about-info {
     text-align:center;
     color:black;
     font-family: 'Vollkorn', serif;
@@ -395,12 +271,16 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
 --------------------------------------------- */
 
 #things{
-    background: url(../img/carrick-a-rede.jpg) no-repeat center center fixed;
+    background: url(../img/carrick-a-rede.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:940px;
+  width:100%;
+  height:100%;
 }
 
 #about section {
@@ -416,33 +296,27 @@ a.btn:hover,a.btn:active,a.showbtn:hover,a.showbtn:active {
     height:auto;
 }
 
-.things-container{
-    margin:auto;
-    padding:auto;
-    width:1170px;
-    height:960px;
-}
-
-.things-title{
+#things-title{
     float:left;
-    margin-top:50px;
-    width:1170px;
-    height:100px;
+    width:100%;
+    height:15%;
+	padding-top:2%;
 
 }
 
-.things-title h4{
+.things-title {
     margin:auto;
     font-family: 'Dancing Script', cursive;
-    font-size:115px;
-    color:white;
+    font-size:7em;
+    color:#fff;
     line-height:1;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
 
-.things-hex {
+#things-hex {
     margin-top:100px;
-    width:1170px;
+    width:100%;
+	margin:0 auto;
     float:left;
 }
 
@@ -1481,4 +1355,3 @@ header {
 
 }
 }
-
