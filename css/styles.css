@@ -355,6 +355,11 @@ padding: 0;
 	padding:0 1% 0 1%;
 	height:auto;	
 }
+.hexicon-wpadding img {
+	width:90%;
+	padding:0 1% 0 1%;
+	height:auto;	
+}
 
 #hex-container{
     margin:auto;
