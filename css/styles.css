@@ -955,7 +955,7 @@ padding: 0;
 #lima-home {
 	height:100%;
   width: 100%;
-  background: url(../img/) no-repeat center center fixed;
+  background: url(../img/limavady/limavady-back.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -966,7 +966,7 @@ padding: 0;
 #derry-home {
 	height:100%;
   width: 100%;
-  background: url(../img/) no-repeat center center fixed;
+  background: url(../img/derry/derry-back.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -976,7 +976,7 @@ padding: 0;
 #downhill-home {
 	height:100%;
   width: 100%;
-  background: url(../img/) no-repeat center center fixed;
+  background: url(../img/downhill/downhill-back.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -986,7 +986,7 @@ padding: 0;
 #dunluce-home {
 	height:100%;
   width: 100%;
-  background: url(../img/) no-repeat center center fixed;
+  background: url(../img/dunluce/dunluce-back.jpg) no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1020,28 +1020,6 @@ padding: 0;
     width:100%;
     height:auto;
 }
-
-/*--Derry Heading--*/
-#derry-home {
-  border-bottom: 1px solid #999;
-  text-align: center;
-  height:980px;
-  width: 100%;
- background: url(../img/derry/bishops-gate.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-
-#derry img: {
-    width:100%;
-    height:auto;
-}
-
-
-
 
 
 /*--Location--*/
