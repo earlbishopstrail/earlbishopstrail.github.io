@@ -28,7 +28,7 @@
 /* Styles */
 
 .hexicon {
-	width:25%;
+	width:33.33%;
 	height:auto;
 	float:left;
 	padding:0;	
@@ -38,7 +38,7 @@
 }
 
 .hexicon-wpadding{
-	width:25%;
+	width:33.33%;
 	height:auto;
 	float:left;
 	padding-left:12.5%;	
@@ -48,7 +48,7 @@
 }
 
 .hexicon img {
-	width:75%;
+	width:50%;
 	padding:0 1% 0 1%;
 	height:auto;	
 }
