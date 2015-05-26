@@ -930,6 +930,17 @@ padding: 0;
 
 /*Binevenagh Heading */
 
+#causeway-home {
+  height:100%;
+  width: 100%;
+ background: url(../img/causeway/causeway-back.gif) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
 #bin-home {
   height:100%;
   width: 100%;
@@ -990,24 +1001,6 @@ padding: 0;
   LOCATION CONTENT STYLEs
 --------------------------------------------- */
 
-/*--Causeway Heading--*/
-#causeway-home {
-  border-bottom: 1px solid #999;
-  text-align: center;
-  height:980px;
-  width: 100%;
- background: url(../img/causeway/causeway-columns.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-
-#causeway img: {
-    width:100%;
-    height:auto;
-}
 /*--Mussenden Heading--*/
 
 #mussenden-home {
