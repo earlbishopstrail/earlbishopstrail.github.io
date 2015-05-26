@@ -344,7 +344,7 @@ padding: 0;
 	width:25%;
 	height:auto;
 	float:left;
-	padding-left:;	
+	padding-left:12.5%;	
 	background-color:; /*#C9070A*/
 	
 	
@@ -430,6 +430,8 @@ padding: 0;
 /* ------------------------------------------
   THINGS CONTENT STYLES END
 --------------------------------------------- */
+
+
 
 
 /* ------------------------------------------
@@ -822,6 +824,168 @@ padding: 0;
   LOCAL PAGE END
 --------------------------------------------- */
 
+
+/*-------------------------------------------------
+			Location Template Styles
+	----------------------------------------*/
+	
+	#location {
+    float:left;
+  	border-bottom: 1px solid #999;
+	height:100%;
+  	width: 100%;
+ 	background:url(../img/.jpg); /* Insert Images Here */
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+   	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-color:; /*Lime #CF3 */
+}
+
+#location-info {
+	width:100%;
+	height:100%;
+	float:left;
+	margin:0;
+	padding:0;
+	background-color:; /*Lime #CF3 */	
+	
+}
+
+#location-left {
+	width:50%;
+	height:100%;
+	background-color:; /*#932729 red */	
+	padding:0;
+	margin:0;
+	float:left;
+	
+}
+#location-right {
+	width:50%;
+	height:100%;
+	background-color:; /* #3B0C87 Purple */	
+	padding:0;
+	margin:0;
+	float:left;
+	
+}
+
+#gallery {
+	width:80%;
+	padding-top:10%;
+	padding-left:10%;
+	height:auto;	
+	margin:0 auto;
+	
+	
+}
+#location-left img {
+		padding-top:2.5%;
+		padding-left:2.5%;
+		width:25%;
+		height:auto;
+	
+}
+
+#location-text {
+	width:80%;
+	padding-top:10%;
+	padding-left:10%;
+	height:100%;	
+	margin: auto;
+
+	
+}
+
+.location-title {
+	text-align:center;
+	font-family: 'Dancing Script', cursive;
+    font-size:3em;
+	padding-top:10%;
+	padding-bottom:2%;
+	
+	
+}
+
+
+
+/*-----------------------------------------
+			Location Backgrounds
+----------------------------------------------*/
+
+/*--Portrush Heading--*/
+#port-home {
+  height:100%;
+  width: 100%;
+ background: url(../img/portrush/720p-sand.gif) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+/*Binevenagh Heading */
+
+#bin-home {
+  height:100%;
+  width: 100%;
+ background: url(../img/binevanagh/mountain-lake.gif) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#lima-home {
+	height:100%;
+  width: 100%;
+  background: url(../img/) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+
+#derry-home {
+	height:100%;
+  width: 100%;
+  background: url(../img/) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+#downhill-home {
+	height:100%;
+  width: 100%;
+  background: url(../img/) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+#dunluce-home {
+	height:100%;
+  width: 100%;
+  background: url(../img/) no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+
+
+
+
 /* ------------------------------------------
   LOCATION CONTENT STYLEs
 --------------------------------------------- */
@@ -883,30 +1047,9 @@ padding: 0;
     height:auto;
 }
 
-/*--Derry Heading--*/
-#port-home {
-  border-bottom: 1px solid #999;
-  text-align: center;
-  height:980px;
-  width: 100%;
- background: url(../img/portrush/720p-sand.gif) no-repeat center center fixed;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-}
 
-#port img: {
-    width:100%;
-    height:auto;
-}
 
-#port-home .home-title {
-
-    color:#000000;
-
-}
 
 /*--Location--*/
 #location-about{
@@ -915,150 +1058,13 @@ padding: 0;
       margin-top:50px
 }
 
-.location-container h1{
-    margin:auto;
-    font-family: 'Oswald', sans-serif;
-    font-size:25px;
-    color:black;
-    text-align:center;
-}
-
 .location-container{
     margin:auto;
-    width:1170px;
+    width:100%;
+	height:auto;
 }
 
-.location-imgs{
-    float:left;
-    margin-top:70px;
-    width:545px;
-}
 
-.loc-img1{
-    width:165px;
-    height:165px;
-    margin-right:24px;
-    background-color:#000;
-    float:left;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img2{
-    width:165px;
-    height:165px;
-    background-color:#000;
-    float:left;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
-
-.loc-img3{
-    width:165px;
-    height:165px;
-    background-color:#000;
-    float:right;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img4{
-    width:165px;
-    height:165px;
-        margin-right:24px;
-    background-color:#000;
-    float:left;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img5{
-    width:165px;
-    height:165px;
-    background-color:#000;
-    float:left;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img6{
-    width:165px;
-    height:165px;
-    background-color:#000;
-    float:right;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img7{
-    width:165px;
-    margin-right:24px;
-    height:165px;
-    background-color:#000;
-    float:left;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img8{
-    width:165px;
-    height:165px;
-    background-color:#000;
-    float:left;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.loc-img9{
-    width:165px;
-    height:165px;
-    background-color:#000;
-    float:right;
-    margin-bottom:24px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-}
-
-.location-info{
-    float:right;
-    margin-right:24px;
-    margin-top:33px;
-    width:585px;
-    padding-bottom:25px
-}
-
-.location-info p{
-    text-align:left;
-    color:black;
-    font-family: 'Vollkorn', serif;
-
-
-}
 
 
 /*-Locations Button--*/
